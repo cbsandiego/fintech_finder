@@ -11,7 +11,20 @@ To install Streamlit library, open your `terminal` window and be sure to be in y
 `pip install streamlit`.
 
 Follow the instructions on the [Ganache webpage](https://www.trufflesuite.com/ganache) to download and install this tool on your local machine.
-
 ---
+
+## App Overview
+Once you've created your dashboard, it should appear as shown:
+![dashboard](images/dashboard.jpg)
+
+After selecting a candidate and number of hours, click `Send Transaction`.  Your transaction will be verified as seen on your streamlit `Dashboard`, Ganache's `Accounts` tab and `Transactions` tab as shown:
+![transaction](images/send_transaction.jpg)
+![index](images/index.jpg)
+![transaction](images/transaction.jpg)
+
+Your streamlit dashboard will also update with your current eth balance as shown.
+![balance](images/dashboard_balance.jpg)
+---
+
 ## Contributors
 Christina San Diego
